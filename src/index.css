@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #212121;
+box-shadow: inset -20px 20px 60px #2f3030,
+            inset 20px -20px 60px #3f4240;
+  color: white;
+}
+.btn_shared {
+  font-weight: bold;
+  border: none;
+  border-radius: 1.1em;
+  background-color: #212121;
+  cursor: pointer;
+  color: white;
+  padding: 1em 2em;
+  transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s,
+    letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+  box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
+}
+.btn_shared:hover {
+  box-shadow:  16px 16px 33px #121212, -16px -16px 33px #303030;
+}
+
+.btn_shared:active {
+  box-shadow:  16px 16px 33px #121212, -16px -16px 33px #303030, #f7a582 0px 0px 30px 5px;
+  background-color: #f7a582;
+  transform: scale(0.95);
+}
