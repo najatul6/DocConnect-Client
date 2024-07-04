@@ -15,23 +15,22 @@ const LogInForm = () => {
         <div className="w-full md:w-2/3">
           <button className="form-input py-2">
             <p className="uppercase font-semibold text-xs md:text-lg flex justify-center items-center gap-2 py-1">
-            <FcGoogle  className="text-2xl"/>
-                Continue with Google
+              <FcGoogle className="text-2xl" />
+              Continue with Google
             </p>
           </button>
         </div>
       </div>
-      
+
       {/* Divider  */}
       <div className="flex justify-center">
         <div className="w-1/2 flex justify-center items-center gap-5">
-
-        <hr className="border-white flex-1" />
-        <p className="text-light-gray text-xs md:text-lg uppercase">or</p>
-        <hr className="border-white flex-1" />
+          <hr className="border-white flex-1" />
+          <p className="text-light-gray text-xs md:text-lg uppercase">or</p>
+          <hr className="border-white flex-1" />
         </div>
       </div>
-  
+
       <div>
         <Form className="flex flex-col justify-center items-center gap-5">
           {/* Email Field  */}
@@ -71,7 +70,7 @@ const LogInForm = () => {
       </div>
       <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-coffee">
         Please register at first. Go to{" "}
-        <Link className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline">
+        <Link to="/signup" className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline">
           SIGN UP
         </Link>
       </p>
