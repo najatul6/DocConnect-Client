@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "light-coffee": "#f7a582",
+        "light-black": "#212121",
       },
     },
   },

@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-root {
+body {
   background: #212121;
 box-shadow: inset -20px 20px 60px #2f3030,
             inset 20px -20px 60px #3f4240;
-  color: white;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 .btn_shared {
   font-weight: bold;
