@@ -3,7 +3,7 @@ import { Form, Link } from "react-router-dom";
 
 const LogInForm = () => {
   return (
-    <div className="form w-full flex flex-col justify-center gap-10 text-center py-10 md:py-20 px-5">
+    <div className="form w-full flex flex-col justify-center gap-5 text-center py-10 md:py-20 px-5">
       <div className="flex justify-center items-center">
         <h2 className="capitalize font-semibold text-lg sm:text-2xl md:text-3xl">
           Sign in to Doc Connect
@@ -13,8 +13,8 @@ const LogInForm = () => {
       {/* Google Sign In Button  */}
       <div className="flex justify-center">
         <div className="w-full md:w-2/3">
-          <button className="form-input py-2">
-            <p className="uppercase font-semibold text-xs md:text-lg flex justify-center items-center gap-2 py-1">
+          <button className="form-input ">
+            <p className="uppercase font-semibold text-xs md:text-lg flex justify-center items-center gap-2">
               <FcGoogle className="text-2xl" />
               Continue with Google
             </p>
@@ -24,7 +24,7 @@ const LogInForm = () => {
 
       {/* Divider  */}
       <div className="flex justify-center">
-        <div className="w-1/2 flex justify-center items-center gap-5">
+        <div className="w-1/2 flex justify-center items-center gap-4">
           <hr className="border-white flex-1" />
           <p className="text-light-gray text-xs md:text-lg uppercase">or</p>
           <hr className="border-white flex-1" />
