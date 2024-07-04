@@ -1,4 +1,6 @@
+import { FaPersonWalkingArrowLoopLeft } from "react-icons/fa6";
 import errorImage from "../../assets/Objects/error.png"
+import { NavLink } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
@@ -14,9 +16,9 @@ const ErrorPage = () => {
           className="w-full animate-pulse"
         />
       </div>
-      <button className="btn_shared">
-        <p className="capitalize font-semibold py-3 px-4">Back to home</p>
-      </button>
+      <NavLink to='/' className="btn_shared">
+        <p className="capitalize font-semibold flex justify-center items-center gap-4"> <FaPersonWalkingArrowLoopLeft /> Back to home</p>
+      </NavLink>
     </div>
   );
 };

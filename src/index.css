@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+root {
   background: #212121;
 box-shadow: inset -20px 20px 60px #2f3030,
             inset 20px -20px 60px #3f4240;
