@@ -7,7 +7,7 @@ const SignUpForm = () => {
     <div className="form w-full flex flex-col justify-center gap-5 text-center py-10 md:py-20 px-5">
       <div className="flex justify-center items-center">
         <h2 className="capitalize font-semibold text-lg sm:text-2xl md:text-3xl">
-          Sign in to Doc Connect
+          Sign Up to Doc Connect
         </h2>
       </div>
 
@@ -34,7 +34,18 @@ const SignUpForm = () => {
 
       <div>
         <Form className="flex flex-col justify-center items-center gap-5">
-          {/* Email Field  */}
+          {/* Name Field  */}
+
+          <div className="form-container w-full md:w-2/3 my-2">
+            <input
+              required
+              type="text"
+              name="name"
+              className="form-input"
+            />
+            <label className="form-label">Full Name</label>
+          </div>
+          {/* UserName Field  */}
 
           <div className="form-container w-full md:w-2/3 my-2">
             <input
@@ -43,7 +54,29 @@ const SignUpForm = () => {
               name="username"
               className="form-input"
             />
-            <label className="form-label">Username or Email Address</label>
+            <label className="form-label">Username</label>
+          </div>
+          {/* Email Field  */}
+
+          <div className="form-container w-full md:w-2/3 my-2">
+            <input
+              required
+              type="email"
+              name="email"
+              className="form-input"
+            />
+            <label className="form-label">Email Address</label>
+          </div>
+          {/* Number Field  */}
+
+          <div className="form-container w-full md:w-2/3 my-2">
+            <input
+              required
+              type="text"
+              name="phoneNumber"
+              className="form-input"
+            />
+            <label className="form-label">Phone Number</label>
           </div>
 
           {/* Password Field  */}
@@ -64,7 +97,7 @@ const SignUpForm = () => {
 
           <div className="w-full md:w-2/3">
             <button className="form-input">
-              <p className="uppercase font-semibold text-lg">Log In</p>
+              <p className="uppercase font-semibold text-lg">Create Account</p>
             </button>
           </div>
         </Form>
