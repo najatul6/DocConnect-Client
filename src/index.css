@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   background: #212121;
-box-shadow: inset -20px 20px 60px #2f3030,
-            inset 20px -20px 60px #3f4240;
+  /* box-shadow: inset -20px 20px 60px #2f3030,
+            inset 20px -20px 60px #3f4240; */
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
@@ -23,19 +23,20 @@ box-shadow: inset -20px 20px 60px #2f3030,
   box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
 }
 .btn_shared:hover {
-  box-shadow:  16px 16px 33px #121212, -16px -16px 33px #303030;
+  box-shadow: 16px 16px 33px #121212, -16px -16px 33px #303030;
 }
 
 .btn_shared:active {
-  box-shadow:  16px 16px 33px #121212, -16px -16px 33px #303030, #f7a582 0px 0px 30px 5px;
+  box-shadow: 16px 16px 33px #121212, -16px -16px 33px #303030,
+    #f7a582 0px 0px 30px 5px;
   background-color: #f7a582;
   transform: scale(0.95);
 }
 
-.form{
+.form {
   background-color: transparent;
-  box-shadow: 3px 3px 10px rgba(0,0,0,1),
-  -1px -1px 6px rgba(255, 255, 255, 0.4);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
 }
 
 .form-container {
@@ -56,7 +57,6 @@ box-shadow: inset -20px 20px 60px #2f3030,
 }
 
 .form-input {
-  
   min-height: 45px;
   border: none;
   outline: none;
@@ -65,17 +65,16 @@ box-shadow: inset -20px 20px 60px #2f3030,
   color: #fff;
   font-size: 15px;
   background-color: transparent;
-  box-shadow: 3px 3px 10px rgba(0,0,0,1),
-  -1px -1px 6px rgba(255, 255, 255, 0.4);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
 }
 
 .form-input:focus {
   border: 2px solid transparent;
   color: #fff;
-  box-shadow: 3px 3px 10px rgba(0,0,0,1),
-  -1px -1px 6px rgba(255, 255, 255, 0.4),
-  inset 3px 3px 10px rgba(0,0,0,1),
-  inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
 }
 
 .form-container .form-input:valid ~ .form-label,
@@ -87,8 +86,7 @@ box-shadow: inset -20px 20px 60px #2f3030,
 
 .form-container .form-input:valid,
 .form-container .form-input:focus {
-  box-shadow: 3px 3px 10px rgba(0,0,0,1),
-  -1px -1px 6px rgba(255, 255, 255, 0.4),
-  inset 3px 3px 10px rgba(0,0,0,1),
-  inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
 }

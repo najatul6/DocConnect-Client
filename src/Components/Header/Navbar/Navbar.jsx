@@ -33,12 +33,12 @@ const Navbar = () => {
             <li key={index} className={`${
                 isOpen ? "translate-y-0 transition-all duration-300" : "translate-y-[-50px] lg:translate-y-0 transition-all duration-700"
               }`}>
-              <a
-                href={route?.path}
+              <NavLink
+                to={route?.path}
                 className="md:leading-[70px] w-full text-lg py-2 px-4 hover:shadow-[#33ffff_0px_0px_5px] hover:text-cyan-500 rounded-md"
               >
                 {route?.title}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>

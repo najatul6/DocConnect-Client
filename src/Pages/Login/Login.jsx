@@ -1,6 +1,6 @@
 import object1 from '../../assets/Objects/from.png'
 import object2 from '../../assets/Objects/bg.png'
-import LogInForm from '../../Componets/LogInForm/LogInForm'
+import LogInForm from '../../Components/LogInForm/LogInForm'
 const Login = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row justify-center gap-4 min-h-screen">

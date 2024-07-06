@@ -1,6 +1,6 @@
 import object1 from '../../assets/Objects/from.png'
 import object2 from '../../assets/Objects/bg.png'
-import SignUpForm from '../../Componets/SignUPForm/SignUpForm'
+import SignUpForm from '../../Components/SignUPForm/SignUpForm'
 
 const SignUp = () => {
   return (
