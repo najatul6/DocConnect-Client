@@ -78,10 +78,6 @@ const SignUpForm = () => {
             />
             <label className="form-label">Password</label>
 
-            {/* Forget Button  */}
-            <Link className="flex justify-end items-end my-2 text-light-coffee hover:text-gray-coffee transition-colors duration-500">
-              Forgot Password ?
-            </Link>
           </div>
 
           <div className="w-full md:w-2/3">
@@ -92,12 +88,11 @@ const SignUpForm = () => {
         </Form>
       </div>
       <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-coffee">
-        Already have an account?
-        <Link
+      Already registered? Go to <Link
           to="/login"
           className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline"
         >
-          Log in
+          SIGN IN
         </Link>
       </p>
     </div>
