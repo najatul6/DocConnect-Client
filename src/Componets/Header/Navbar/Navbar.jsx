@@ -27,15 +27,19 @@ const Navbar = () => {
               </NavLink>
             </li>
           ))}
+      <button
+        onClick={() => {
+          setIsOpen(!isOpen);
+        }}
+        className="form-input hover:text-light-coffee md:hidden"
+      >
+        {isOpen ? (
+          <IoClose className="text-3xl transition-all duration-500" />
+        ) : (
+          <IoMenu className="text-3xl transition-all duration-500" />
+        )}
+      </button>
         </ul>
-      </div>
-      <div>
-        <button>
-          <IoMenu className="text-xl sm:text-2xl md:text-3xl hover:text-light-gray transition-colors duration-500" />
-        </button>
-        <button>
-          <IoClose className="text-xl sm:text-2xl md:text-3xl hover:text-light-gray transition-colors duration-500" />
-        </button>
       </div>
     </div>
   );
