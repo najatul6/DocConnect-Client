@@ -1,6 +1,5 @@
-import { FcGoogle } from "react-icons/fc"
-import { Form, Link } from "react-router-dom"
-
+import { FcGoogle } from "react-icons/fc";
+import { Form, Link } from "react-router-dom";
 
 const SignUpForm = () => {
   return (
@@ -37,12 +36,7 @@ const SignUpForm = () => {
           {/* Name Field  */}
 
           <div className="form-container w-full md:w-2/3 my-2">
-            <input
-              required
-              type="text"
-              name="name"
-              className="form-input"
-            />
+            <input required type="text" name="name" className="form-input" />
             <label className="form-label">Full Name</label>
           </div>
           {/* UserName Field  */}
@@ -59,12 +53,7 @@ const SignUpForm = () => {
           {/* Email Field  */}
 
           <div className="form-container w-full md:w-2/3 my-2">
-            <input
-              required
-              type="email"
-              name="email"
-              className="form-input"
-            />
+            <input required type="email" name="email" className="form-input" />
             <label className="form-label">Email Address</label>
           </div>
           {/* Number Field  */}
@@ -103,13 +92,16 @@ const SignUpForm = () => {
         </Form>
       </div>
       <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-coffee">
-        Please register at first. Go to{" "}
-        <Link to="/signup" className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline">
-          SIGN UP
+        Already have an account?
+        <Link
+          to="/login"
+          className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline"
+        >
+          Log in
         </Link>
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default SignUpForm
+export default SignUpForm;
