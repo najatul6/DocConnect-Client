@@ -1,11 +1,13 @@
-import Hero from "../../Components/Header/Hero/Hero"
+import Hero from "../../Components/Header/Hero/Hero";
 
 const Home = () => {
   return (
     <div>
-      <Hero/>
+      <div className="bg-hero-pattern border min-h-[800px] bg-cover w-full">
+        <Hero />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
