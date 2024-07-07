@@ -1,4 +1,5 @@
 import cardImg from '../../assets/banner/teeth.png'
+import Button from '../Shared/Button/Button'
 const ServiceCard = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-5 '>
@@ -13,9 +14,8 @@ const ServiceCard = () => {
           <p>
           Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
           </p>
-          <button>
-          More Details
-          </button>
+          <Button text={More Details}/>
+          
         </div>
     </div>
   )
