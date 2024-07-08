@@ -11,10 +11,10 @@ const Home = () => {
       </div>
 
       {/* Service Section  */}
-      <div className="grid grid-cols-2 gap-2">
-          <img src={serviceImg} alt="" className="flex-1 w-3/4 mx-auto" />
-        {/* <div className=" flex-1 border ">
-        </div> */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+        <div className=" flex-1 border ">
+          <img src={serviceImg} alt="" className="w-3/4 mx-auto" />
+        </div>
         <div className="flex-1 border">
           <OurService/>
         </div>
