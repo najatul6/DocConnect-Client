@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="mx-auto">
       {/* Hero Section  */}
-      <div className="bg-hero-pattern min-h-[800px] bg-cover w-full">
+      <div className="bg-hero-pattern h-auto lg:min-h-screen lg:bg-cover w-full">
         <Hero />
       </div>
 

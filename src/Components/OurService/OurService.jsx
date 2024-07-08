@@ -13,9 +13,9 @@ const OurService = () => {
         explicabo.
       </p>
       </div>
-      <div className="border-[#828282] border rounded-xl overflow-hidden">
+      <div className="border-[#828282] border rounded-xl w-full mx-auto">
         <ul>
-          <li className="flex flex-col md:flex-row  justify-center items-center ">
+          <li className="flex flex-col lg:flex-row text-center justify-center items-center ">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending

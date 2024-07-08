@@ -4,7 +4,7 @@ import bannerImg from "../../../assets/Objects/Group doctor.png"
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center px-10 min-h-[800px]">
+    <div className="flex flex-col lg:flex-row justify-between items-center px-5 lg:px-10  min-h-screen pt-[40%] sm:pt-[15%] md:pt-[20%] pb-10  lg:pt-[10%] gap-5">
       <div className="flex-1 flex flex-col justify-center items-start gap-5">
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold">
         Your Best Medical <br /> Help Center
