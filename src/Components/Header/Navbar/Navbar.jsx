@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-      <header className="fixed right-0 left-0 max-w-[1920px] mx-auto py-[1.3rem] px-[2%] lg:py-5 lg:px-[2%] flex justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:backdrop-blur-[50px] lg:backdrop-blur-0 before:z-[-1] text-white font-bold">
+      <header className="fixed right-0 left-0 max-w-[1920px] mx-auto py-[1.3rem] px-[2%] lg:py-5 lg:px-[2%] flex justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:backdrop-blur-[50px] before:z-[-1] text-white font-bold">
         <div className="text-3xl font-bold lg:leading-[70px] capitalize cursor-pointer">
           <Link to="/" className="flex justify-center items-center gap-2">
             <img src={brandLogo} alt="Doc Connect Logo" className="" />
