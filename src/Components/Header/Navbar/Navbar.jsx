@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-      <header className="fixed right-0 left-0 max-w-[1920px] mx-auto py-[1.3rem] px-[2%] lg:py-5 lg:px-[2%] flex justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:backdrop-blur-[50px] before:z-[-1] text-white font-bold">
+      <header className="fixed right-0 left-0 max-w-[1920px] mx-auto py-[1.3rem] px-[2%] lg:py-5 lg:px-[2%] flex justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:backdrop-blur-[50px] before:z-[-1] text-white font-bold shadow-xl lg:shadow-none">
         <div className="text-3xl font-bold lg:leading-[70px] capitalize cursor-pointer">
           <Link to="/" className="flex justify-center items-center gap-2">
             <img src={brandLogo} alt="Doc Connect Logo" className="" />
@@ -19,10 +19,10 @@ const Navbar = () => {
         </div>
         <label
           htmlFor=""
-          className="text-4xl form-input text-white cursor-pointer lg:hidden absolute right-[5%] inline-flex duration-300 hover:shadow-[#33ffff_0px_0px_5px] hover:text-cyan-500 rounded-md"
+          className="form-input text-white cursor-pointer lg:hidden absolute right-[5%] inline-flex duration-300 hover:shadow-[#33ffff_0px_0px_5px] hover:text-light-coffee rounded-md "
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? <IoClose /> : <IoMenu />}
+          {isOpen ? <IoClose className="text-4xl text-light-coffee" /> : <IoMenu className="text-4xl" />}
         </label>
         <nav
           className={`${
