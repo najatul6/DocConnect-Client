@@ -15,14 +15,14 @@ const OurService = () => {
       </div>
       <div className="border-[#828282] border rounded-xl overflow-hidden">
         <ul>
-          <li className="flex  justify-center items-center ">
+          <li className="flex flex-col md:flex-row  justify-center items-center ">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending
                   ? "pending"
                   : isActive
-                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-5 py-5 rounded-xl text-xl font-semibold"
-                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-5 py-5 rounded-xl text-xl font-semibold"
+                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-5 py-5 rounded-xl w-full text-xl font-semibold"
+                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-5 py-5 rounded-xl w-full text-xl font-semibold"
               }
               to="/p"
             >
@@ -33,8 +33,8 @@ const OurService = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-5 py-5 rounded-xl text-xl font-semibold"
-                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-5 py-5 rounded-xl text-xl font-semibold"
+                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-5 py-5 rounded-xl w-full text-xl font-semibold"
+                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-5 py-5 rounded-xl w-full text-xl font-semibold"
               }
               to="/service1"
             >
@@ -45,8 +45,8 @@ const OurService = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-5 py-5 rounded-xl text-xl font-semibold"
-                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-5 py-5 rounded-xl text-xl font-semibold"
+                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee w-full px-5 py-5 rounded-xl text-xl font-semibold"
+                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee w-full px-5 py-5 rounded-xl text-xl font-semibold"
               }
               to="/service1"
             >
