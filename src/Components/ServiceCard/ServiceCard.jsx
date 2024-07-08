@@ -14,7 +14,7 @@ const ServiceCard = () => {
           <p>
           Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
           </p>
-          <Button text={More Details}/>
+          <Button text={"More Details"}/>
           
         </div>
     </div>
