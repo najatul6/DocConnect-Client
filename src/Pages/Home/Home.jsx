@@ -12,10 +12,10 @@ const Home = () => {
 
       {/* Service Section  */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 p-5">
-        <div className="border p-5">
+        <div className="p-5">
           <img src={serviceImg} alt="" className="w-3/4 mx-auto" />
         </div>
-        <div className="border p-5">
+        <div className="p-5">
           <OurService/>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="text-sm sm:text-base md:text-lg">
         Lorem Ipsum is simply dummy text they are printing typesetting has been the industry’s standard.
         </p>
-        <Button text={"All Service"}/> 
+        <Button customClass={"bg-light-coffee hover:bg-transparent border-light-coffee border duration-300"} text={"All Service"}/> 
     </div>
     <div className="flex-1">
       <img src={bannerImg} alt="" className="w-full" />
