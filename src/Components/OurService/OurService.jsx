@@ -21,8 +21,8 @@ const OurService = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-5 py-5 rounded-xl w-full text-xl font-semibold"
-                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-5 py-5 rounded-xl w-full text-xl font-semibold"
+                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-4 py-3 rounded-xl w-full text-xl font-semibold"
+                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-4 py-3 rounded-xl w-full text-xl font-semibold"
               }
               to="/p"
             >
@@ -33,8 +33,8 @@ const OurService = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-5 py-5 rounded-xl w-full text-xl font-semibold"
-                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-5 py-5 rounded-xl w-full text-xl font-semibold"
+                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee  px-4 py-3 rounded-xl w-full text-xl font-semibold"
+                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee px-4 py-3 rounded-xl w-full text-xl font-semibold"
               }
               to="/service1"
             >
@@ -45,8 +45,8 @@ const OurService = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee w-full px-5 py-5 rounded-xl text-xl font-semibold"
-                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee w-full px-5 py-5 rounded-xl text-xl font-semibold"
+                  ? "shadow-[#f7a582_0px_0px_5px] text-black bg-light-coffee w-full px-4 py-3 rounded-xl text-xl font-semibold"
+                  : "hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee w-full px-4 py-3 rounded-xl text-xl font-semibold"
               }
               to="/service1"
             >
