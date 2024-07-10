@@ -1,9 +1,14 @@
+import { FiPhoneCall } from "react-icons/fi";
+import { IoLocationSharp } from "react-icons/io5";
+import { LuCalendarClock } from "react-icons/lu";
+
 const OpeningSection = () => {
   return (
     <div>
       {/* Opening Hours */}
       <div>
         {/* todo: clock Icon added from React icon */}
+        <LuCalendarClock />
         <div>
           <h4>Opening Hours</h4>
           <p>Open 9.00 am to 5.00pm Everyday</p>
@@ -11,7 +16,8 @@ const OpeningSection = () => {
       </div>
       {/* Our Locations */}
       <div>
-        {/* todo: Location Icon added from React icon */}
+      <IoLocationSharp />
+
         <div>
           <h4>Our Locations</h4>
           <p>Dhanmondi 17, Dhaka -1200, Bangladesh</p>
@@ -19,7 +25,8 @@ const OpeningSection = () => {
       </div>
       {/* Contact Us */}
       <div>
-        {/* todo: Phone Icon added from React icon */}
+      <FiPhoneCall />
+
         <div>
           <h4>Contact Us</h4>
           <div>

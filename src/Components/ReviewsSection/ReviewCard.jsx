@@ -1,4 +1,6 @@
-const avatar from "../../assets/Avatar/profile.png"
+import { FaQuoteLeft } from "react-icons/fa6"
+import avatar from '../../assets/Avatar/profile.png'
+
 const ReviewCard = () => {
   return (
     <div>
@@ -10,7 +12,7 @@ const ReviewCard = () => {
             <p>Product Designer</p>
         </div>
        </div>
-        {/* todo: Quote Icon add from react Icon  */}
+       <FaQuoteLeft />
        </div>
         <p>
         Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer tool a galley of type and scrambled it to make type specimen book has survived not only five centuries.
