@@ -1,4 +1,3 @@
-
 const avatar from "../../assets/Avatar/profile.png"
 const ReviewCard = () => {
   return (
