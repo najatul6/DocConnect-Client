@@ -7,7 +7,6 @@ const OpeningSection = () => {
     <div>
       {/* Opening Hours */}
       <div>
-        {/* todo: clock Icon added from React icon */}
         <LuCalendarClock />
         <div>
           <h4>Opening Hours</h4>
@@ -16,8 +15,7 @@ const OpeningSection = () => {
       </div>
       {/* Our Locations */}
       <div>
-      <IoLocationSharp />
-
+        <IoLocationSharp />
         <div>
           <h4>Our Locations</h4>
           <p>Dhanmondi 17, Dhaka -1200, Bangladesh</p>
@@ -25,8 +23,7 @@ const OpeningSection = () => {
       </div>
       {/* Contact Us */}
       <div>
-      <FiPhoneCall />
-
+        <FiPhoneCall />
         <div>
           <h4>Contact Us</h4>
           <div>
