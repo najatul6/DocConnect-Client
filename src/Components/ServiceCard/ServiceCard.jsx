@@ -4,7 +4,7 @@ const ServiceCard = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-5 '>
         <div>
-        <img src={cardImg} alt="" />
+        <img src={cardImg} alt="Product Images" />
         </div>
         <div className='mt-7 flex flex-col gap-4'>
           <h4 className='text-3xl font-semibold'>Electro  Gastrology Therapy</h4>
