@@ -6,7 +6,7 @@ const ReviewCard = () => {
     <div>
        <div>
        <div>
-       <img src={avatar} alt="Profile Image" />
+       <img src={avatar} alt="Avatar Profile" />
         <div>
             <h4>Awlad Hossain</h4>
             <p>Product Designer</p>
