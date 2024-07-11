@@ -15,7 +15,7 @@ const ReviewCard = () => {
        <FaQuoteLeft />
        </div>
         <p>
-        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer tool a galley of type and scrambled it to make type specimen book has survived not only five centuries.
+        Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer tool a galley of type and scrambled it to make type specimen book has survived not only five centuries.
         </p>
     </div>
   )
