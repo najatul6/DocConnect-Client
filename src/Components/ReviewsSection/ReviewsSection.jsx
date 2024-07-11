@@ -4,7 +4,7 @@ const ReviewsSection = () => {
   return (
     <div>
       <div>
-        <h1 className="textblue">What Our Patients Says</h1>
+        <h1 >What Our Patients Says</h1>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
