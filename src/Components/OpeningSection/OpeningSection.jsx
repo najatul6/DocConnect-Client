@@ -4,28 +4,28 @@ import { LuCalendarClock } from "react-icons/lu";
 
 const OpeningSection = () => {
   return (
-    <div className="flex flex-wrap gap-5 justify-center items-center my-5">
+    <div className="flex flex-col lg:flex-row gap-5 justify-center items-center my-5">
       {/* Opening Hours */}
-      <div>
-        <LuCalendarClock />
+      <div className="bg-light-green p-10 rounded-xl flex justify-center items-center gap-5">
+        <LuCalendarClock className="text-3xl font-bold"/>
         <div>
-          <h4>Opening Hours</h4>
+          <h4 className="text-2xl">Opening Hours</h4>
           <p>Open 9.00 am to 5.00pm Everyday</p>
         </div>
       </div>
       {/* Our Locations */}
-      <div>
+      <div className="bg-light-coffee p-10 rounded-xl">
         <IoLocationSharp />
         <div>
-          <h4>Our Locations</h4>
+          <h4 className="text-2xl">Our Locations</h4>
           <p>Dhanmondi 17, Dhaka -1200, Bangladesh</p>
         </div>
       </div>
       {/* Contact Us */}
-      <div>
+      <div className="bg-light-green p-10 rounded-xl">
         <FiPhoneCall />
         <div>
-          <h4>Contact Us</h4>
+          <h4 className="text-2xl">Contact Us</h4>
           <div>
             <p>+88 01750 00 00 00 </p>
             <p>+88 01750 00 00 00</p>
