@@ -23,7 +23,7 @@ const Home = () => {
       </div>
 
       {/* Opening Details Section  */}
-      <div>
+      <div className="p-5">
         <OpeningSection/>
       </div>
 
