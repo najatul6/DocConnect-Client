@@ -4,7 +4,7 @@ import { LuCalendarClock } from "react-icons/lu";
 
 const OpeningSection = () => {
   return (
-    <div>
+    <div className="flex flex-wrap gap-5 justify-center items-center my-5">
       {/* Opening Hours */}
       <div>
         <LuCalendarClock />
