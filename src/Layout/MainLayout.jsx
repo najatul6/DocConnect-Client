@@ -3,11 +3,11 @@ import Navbar from "../Components/Header/Navbar/Navbar";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-[1920px] mx-auto">
+    <div className="max-w-[1920px] mx-auto px-[2%]">
       <div>
       <Navbar />
       </div>
-      <div>
+      <div className="">
         <Outlet />
       </div>
     </div>
