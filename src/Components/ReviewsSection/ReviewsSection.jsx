@@ -1,5 +1,17 @@
 import ReviewCard from "./ReviewCard";
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, FreeMode, Navigation, Pagination } from "swiper/modules";
+
 const ReviewsSection = () => {
   return (
     <div className="mx-auto">
@@ -13,7 +25,34 @@ const ReviewsSection = () => {
         </p>
       </div>
       <div>
-        <ReviewCard/>
+        <Swiper
+          slidesPerView={2}
+          spaceBetween={30}
+          freeMode={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          navigation={true}
+          modules={[FreeMode, Pagination, Autoplay,Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <ReviewCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <ReviewCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <ReviewCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <ReviewCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <ReviewCard />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
