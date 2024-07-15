@@ -1,3 +1,4 @@
+import DoctorSection from "../../Components/DoctorSection/DoctorSection";
 import Hero from "../../Components/Header/Hero/Hero";
 import OpeningSection from "../../Components/OpeningSection/OpeningSection";
 import OurService from "../../Components/OurService/OurService";
@@ -24,19 +25,19 @@ const Home = () => {
 
       {/* Opening Details Section  */}
       <div className="p-5">
-        <OpeningSection/>
+        <OpeningSection />
       </div>
 
       {/* Reviews Section  */}
       <div>
-        <ReviewsSection/>
+        <ReviewsSection />
       </div>
 
       {/* Doctor Section  */}
       <div>
-
+        <DoctorSection />
       </div>
-      
+
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia id
         eos sapiente dolorem dicta et eaque iste nemo. Cumque nulla itaque

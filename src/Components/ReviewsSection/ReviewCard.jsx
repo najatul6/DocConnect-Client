@@ -3,7 +3,7 @@ import avatar from "../../assets/Avatar/profile.png";
 
 const ReviewCard = () => {
   return (
-    <div className="p-12 border rounded-xl">
+    <div className="p-12 border rounded-xl container">
       <div className="flex justify-between items-center">
         <div className="flex justify-center items-center gap-4">
           <img src={avatar} alt="Avatar Profile" className="w-[60px] h-[60px] rounded-full border border-red-500" />

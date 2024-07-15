@@ -11,30 +11,29 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, FreeMode, Navigation, Pagination } from "swiper/modules";
+import SectionsHeader from "../Shared/SectionsHeader/SectionsHeader";
 
 const ReviewsSection = () => {
   return (
     <div className="mx-auto">
-      <div className="flex flex-col justify-center items-center text-center w-[75%] mx-auto my-5">
-        <h1 className="text-3xl font-bold">What Our Patients Says</h1>
-        <p className="text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium dolor emque laudanum, totam rem aperiam, eaque ipsa quae
-          ab illo inve ntore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo.
-        </p>
-      </div>
-      <div>
+      <SectionsHeader
+        title={"What Our Patients Says"}
+        subTitle={
+          " Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium dolor emque laudanum, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        }
+      />
+
+      <div className="my-10">
         <Swiper
           slidesPerView={2}
-          spaceBetween={30}
+          spaceBetween={20}
           freeMode={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
           navigation={true}
-          modules={[FreeMode, Pagination, Autoplay,Navigation]}
+          modules={[FreeMode, Pagination, Autoplay, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
