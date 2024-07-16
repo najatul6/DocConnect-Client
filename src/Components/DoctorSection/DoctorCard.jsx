@@ -35,7 +35,7 @@ const DoctorCard = ({ doctor }) => {
           </p>
         </div>
         <div className="card-actions ">
-          <Link to="#" className="w-full">
+          <Link to={`${name}`} className="w-full">
           <button className="btn border border-light-coffee text-white bg-transparent hover:bg-light-coffee w-full">View Profile</button>
           </Link>
         </div>
