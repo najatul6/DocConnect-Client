@@ -3,13 +3,14 @@ import { IoLocationSharp } from "react-icons/io5";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { HiCurrencyDollar } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const DoctorCard = ({ doctor }) => {
   const { name, specialty, reviews, location, status, price, dp } = doctor;
   return (
-    <div className="card bg-base-100 w-96 shadow-xl">
+    <div className="card border">
       <figure className="px-5 pt-5">
-        <img src={dp} alt={`${name} profile image`} className="rounded-xl" />
+        <img src={dp} alt={`${name} profile image`} className="rounded-xl w-full" />
       </figure>
       <div className="card-body space-y-3">
         <div className="flex flex-col justify-center">
@@ -34,7 +35,9 @@ const DoctorCard = ({ doctor }) => {
           </p>
         </div>
         <div className="card-actions ">
-          <button className="btn btn-primary w-full">Buy Now</button>
+          <Link to="#" className="w-full">
+          <button className="btn border border-light-coffee text-white bg-transparent hover:bg-light-coffee w-full">View Profile</button>
+          </Link>
         </div>
       </div>
     </div>
