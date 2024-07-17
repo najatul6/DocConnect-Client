@@ -1,3 +1,5 @@
+import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
+
 const ContactContent = () => {
   return (
     <div>
@@ -8,8 +10,14 @@ const ContactContent = () => {
         illo inve ntore veritatis et quasi.
       </p>
       <div>
-        <p>+88 01750 14 14 14</p>
-        <p>Dhanmondi, Dhaka, Bangladesh</p>
+        <p>
+        <FaPhoneVolume />
+            +88 01750 14 14 14
+            </p>
+        <p>
+        <FaLocationDot />
+            Dhanmondi, Dhaka, Bangladesh
+            </p>
       </div>
     </div>
   );
