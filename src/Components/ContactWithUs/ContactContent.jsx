@@ -1,0 +1,18 @@
+const ContactContent = () => {
+  return (
+    <div>
+      <h2>Contact With Us</h2>
+      <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+        illo inve ntore veritatis et quasi.
+      </p>
+      <div>
+        <p>+88 01750 14 14 14</p>
+        <p>Dhanmondi, Dhaka, Bangladesh</p>
+      </div>
+    </div>
+  );
+};
+
+export default ContactContent;
