@@ -10,14 +10,14 @@ const ContactContent = () => {
         illo inve ntore veritatis et quasi.
       </p>
       <div>
-        <p>
-        <FaPhoneVolume />
-            +88 01750 14 14 14
-            </p>
-        <p>
-        <FaLocationDot />
-            Dhanmondi, Dhaka, Bangladesh
-            </p>
+        <p className="flex justify-center items-center">
+          <FaPhoneVolume />
+          +88 01750 14 14 14
+        </p>
+        <p className="flex justify-center items-center">
+          <FaLocationDot />
+          Dhanmondi, Dhaka, Bangladesh
+        </p>
       </div>
     </div>
   );

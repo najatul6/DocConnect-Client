@@ -1,7 +1,10 @@
+import { Form } from "react-router-dom"
 
 const ContactForm = () => {
   return (
-    <div>ContactForm</div>
+    <Form>
+        
+    </Form>
   )
 }
 

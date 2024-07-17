@@ -1,3 +1,4 @@
+import ContactWithUs from "../../Components/ContactWithUs/ContactWithUs";
 import DoctorSection from "../../Components/DoctorSection/DoctorSection";
 import Hero from "../../Components/Header/Hero/Hero";
 import OpeningSection from "../../Components/OpeningSection/OpeningSection";
@@ -36,6 +37,10 @@ const Home = () => {
       {/* Doctor Section  */}
       <div>
         <DoctorSection />
+      </div>
+      {/* Contact With Us Section  */}
+      <div>
+        <ContactWithUs />
       </div>
 
       <div>
