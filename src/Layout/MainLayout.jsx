@@ -4,14 +4,14 @@ import Footer from "../Components/Shared/Footer/Footer";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-[1920px] mx-auto px-[2%]">
+    <div className="max-w-[1920px] mx-auto">
       <div>
       <Navbar />
       </div>
       <div className="">
         <Outlet />
       </div>
-      <div>
+      <div className="px-0">
         <Footer/>
       </div>
     </div>
