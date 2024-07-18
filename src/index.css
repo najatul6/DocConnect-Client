@@ -5,11 +5,14 @@
 
 body {
   background: #212121;
-  /* box-shadow: inset -20px 20px 60px #2f3030,
-            inset 20px -20px 60px #3f4240; */
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
+.custom-footer{
+   box-shadow: inset -20px 20px 60px #121212,
+            inset 20px -20px 60px #303030;
+}
+
 .btn_shared {
   font-weight: bold;
   border: none;

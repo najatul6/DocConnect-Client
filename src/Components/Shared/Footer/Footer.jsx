@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F3F3F3] py-28 px-40">
+    <div className="custom-footer py-28 px-40 flex justify-evenly items-center gap-10 shadow-xl shadow-dark-coffee">
       <div className="flex flex-col justify-start items-start gap-5">
         <Link to="/" className="flex justify-center items-center gap-2">
           <img src={logo} alt="Doc Connect Logo" />
@@ -57,7 +57,6 @@ const Footer = () => {
           <li>Sunday - 10 am to 7 pm</li>
         </ul>
       </div>
-      
     </div>
   );
 };
