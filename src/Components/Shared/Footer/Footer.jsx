@@ -4,6 +4,7 @@ import Button from "../Button/Button";
 
 const Footer = () => {
   return (
+    <>
     <div className="custom-footer py-28 px-40 flex justify-evenly items-center gap-10 shadow-xl shadow-dark-coffee">
       <div className="flex flex-col justify-start items-start gap-5">
         <Link to="/" className="flex justify-center items-center gap-2">
@@ -58,6 +59,8 @@ const Footer = () => {
         </ul>
       </div>
     </div>
+    <p className="text-center text-lg font-medium text-[#828282] w-full py-5">&copy; Alright Reserved by - <Link to="https://www.github.com/najatul6" className="font-bold text-blue-400 hover:text-blue-600">Najatul islam</Link></p>
+    </>
   );
 };
 
