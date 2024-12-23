@@ -60,9 +60,18 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center text-md text-white w-full py-3 bg-light-black">
-        &copy; Alright Reserved by -DocConnect
+        &copy; Alright Reserved DocConnect
       </p>
-      <p></p>
+      <p className="text-center text-md text-white w-full py-3 bg-light-black">
+        Developed By -
+      <Link
+          to="https://www.github.com/najatul6"
+          target="_blank"
+          className="font-bold underline hover:text-light-coffee text-dark-coffee shadow-inner"
+        >
+          Najatul islam
+        </Link>
+      </p>
     </>
   );
 };
