@@ -59,11 +59,11 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex items-center px-5">
+      <div className="flex flex-col md:flex-row items-center px-5">
         <p className="text-center text-xs md:text-md text-white w-full py-3 bg-light-black">
           &copy; Alright Reserved DocConnect
         </p>
-        <p className="text-center text-xs md:text-md text-white w-full py-3 bg-light-black flex justify-end">
+        <p className="text-center text-xs md:text-md text-white w-full py-3 bg-light-black">
           Developed By -
           <Link
             to="https://www.github.com/najatul6"
