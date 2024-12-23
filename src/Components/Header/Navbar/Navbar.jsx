@@ -52,6 +52,7 @@ const Navbar = () => {
                     ? "md:leading-[70px] w-full text-lg py-2 px-4 shadow-[#f7a582_0px_0px_5px] text-light-coffee rounded-md"
                     : "md:leading-[70px] w-full text-lg py-2 px-4 hover:shadow-[#f7a582_0px_0px_5px] hover:text-light-coffee rounded-md"
                 }
+                onClick={()=>setIsOpen(!isOpen)}
               >
                 {route?.title}
               </NavLink>
