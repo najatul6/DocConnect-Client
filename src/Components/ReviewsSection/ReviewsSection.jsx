@@ -25,7 +25,7 @@ const ReviewsSection = () => {
 
       <div className="my-10">
         <Swiper
-          slidesPerView={2}
+          slidesPerView={1}
           spaceBetween={20}
           freeMode={true}
           autoplay={{
