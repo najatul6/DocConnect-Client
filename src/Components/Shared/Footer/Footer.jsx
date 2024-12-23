@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 const Footer = () => {
   return (
     <>
-      <div className="custom-footer py-20 px-20 flex justify-evenly items-center gap-10 shadow-xl shadow-dark-coffee">
+      <div className="custom-footer py-10 px-5 lg:py-20 lg:px-20 flex flex-col lg:flex-row justify-evenly items-center gap-10 shadow-xl shadow-dark-coffee">
         <div className="flex flex-col justify-start items-start gap-5">
           <Link to="/" className="flex justify-center items-center gap-2">
             <img src={logo} alt="Doc Connect Logo" />
@@ -60,10 +60,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center px-5">
-        <p className="text-center text-md text-white w-full py-3 bg-light-black">
+        <p className="text-center text-xs md:text-md text-white w-full py-3 bg-light-black">
           &copy; Alright Reserved DocConnect
         </p>
-        <p className="text-center text-md text-white w-full py-3 bg-light-black flex justify-end">
+        <p className="text-center text-xs md:text-md text-white w-full py-3 bg-light-black flex justify-end">
           Developed By -
           <Link
             to="https://www.github.com/najatul6"
