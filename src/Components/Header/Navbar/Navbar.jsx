@@ -11,8 +11,8 @@ const Navbar = () => {
     <header className="fixed right-0 left-0 max-w-[1920px] mx-auto py-[1.3rem] px-[2%] lg:py-5 lg:px-[2%] flex justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:backdrop-blur-[50px] before:z-[-1] text-white font-bold shadow-xl lg:shadow-none">
       <div className="text-3xl font-bold lg:leading-[70px] capitalize cursor-pointer">
         <Link to="/" className="flex justify-center items-center gap-2">
-          <img src={brandLogo} alt="Doc Connect Logo" className="" />
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">
+          <img src={brandLogo} alt="Doc Connect Logo" className="w-[15%]" />
+          <p className="text-base sm:text-base md:text-2xl lg:text-3xl font-bold">
             <span className="text-light-coffee">Doc</span> Connect
           </p>
         </Link>
