@@ -44,4 +44,8 @@ const DoctorCard = ({ doctor }) => {
   );
 };
 
+DoctorCard.propTypes = {
+  doctor: PropTypes.object.isRequired,
+};
+
 export default DoctorCard;
