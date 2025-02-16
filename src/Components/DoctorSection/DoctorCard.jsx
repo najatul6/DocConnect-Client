@@ -4,6 +4,7 @@ import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { HiCurrencyDollar } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const DoctorCard = ({ doctor }) => {
   const { name, specialty, reviews, location, status, price, dp } = doctor;
@@ -36,7 +37,7 @@ const DoctorCard = ({ doctor }) => {
         </div>
         <div className="card-actions ">
           <Link to={`${name}`} className="w-full">
-          <button className="btn border border-light-coffee text-white bg-transparent hover:bg-light-coffee w-full">View Profile</button>
+          <button className="btn border border-light-coffee text-white bg-transparent duration-300 transition-colors hover:bg-light-coffee w-full">View Profile</button>
           </Link>
         </div>
       </div>
