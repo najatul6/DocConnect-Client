@@ -24,7 +24,7 @@ const LogInForm = () => {
 
       {/* Divider  */}
       <div className="flex justify-center">
-        <div className="w-1/2 flex justify-center items-center gap-4">
+        <div className="w-1/2 flex justify-center items-center gap-3">
           <hr className="border-white flex-1" />
           <p className="text-light-gray text-xs md:text-lg uppercase">or</p>
           <hr className="border-white flex-1" />
