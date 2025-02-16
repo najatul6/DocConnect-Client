@@ -1,7 +1,7 @@
 
 const Appointment = () => {
   return (
-    <div className="flex justify-center items-center">Appointment</div>
+    <div className="flex justify-center items-center min-h-screen">Appointment</div>
   )
 }
 
