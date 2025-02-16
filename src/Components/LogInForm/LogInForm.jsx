@@ -70,7 +70,10 @@ const LogInForm = () => {
       </div>
       <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-coffee">
         Please register at first. Go to{" "}
-        <Link to="/signup" className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline">
+        <Link
+          to="/signup"
+          className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline"
+        >
           SIGN UP
         </Link>
       </p>
