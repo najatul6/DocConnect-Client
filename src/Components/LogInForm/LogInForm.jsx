@@ -61,8 +61,8 @@ const LogInForm = () => {
             </Link>
           </div>
 
-          <div className="w-full md:w-2/3">
-            <button className="form-input">
+          <div className="w-full ">
+            <button className="form-input w-full">
               <p className="uppercase font-semibold text-lg">Log In</p>
             </button>
           </div>
