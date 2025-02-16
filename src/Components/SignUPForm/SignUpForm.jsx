@@ -77,7 +77,6 @@ const SignUpForm = () => {
               className="form-input"
             />
             <label className="form-label">Password</label>
-
           </div>
 
           <div className="w-full ">
@@ -88,7 +87,8 @@ const SignUpForm = () => {
         </Form>
       </div>
       <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-coffee">
-      Already registered? Go to <Link
+        Already registered? Go to{" "}
+        <Link
           to="/login"
           className="text-lg font-medium text-light-coffee hover:text-dark-coffee transition-colors duration-500 underline"
         >
