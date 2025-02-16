@@ -17,10 +17,12 @@ const Footer = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. has been since the printer took.
           </p>
-          <Button
-            text={"Appointment"}
-            customClass={"border border-light-coffee hover:bg-light-coffee"}
-          />
+          <Link to="/appointment">
+            <Button
+              text={"Appointment"}
+              customClass={"border border-light-coffee hover:bg-light-coffee"}
+            />
+          </Link>
         </div>
         <div>
           <h3 className="text-lg font-bold">Quick Links</h3>
