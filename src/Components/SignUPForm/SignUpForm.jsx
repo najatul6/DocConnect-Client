@@ -32,16 +32,16 @@ const SignUpForm = () => {
       </div>
 
       <div>
-        <Form className="flex flex-col justify-center items-center gap-5">
+        <Form className="flex flex-col justify-center items-center gap-6">
           {/* Name Field  */}
 
-          <div className="form-container w-full md:w-2/3 my-2">
+          <div className="form-container w-full md:w-2/3 ">
             <input required type="text" name="name" className="form-input" />
             <label className="form-label">Full Name</label>
           </div>
           {/* UserName Field  */}
 
-          <div className="form-container w-full md:w-2/3 my-2">
+          <div className="form-container w-full md:w-2/3">
             <input
               required
               type="text"
@@ -52,13 +52,13 @@ const SignUpForm = () => {
           </div>
           {/* Email Field  */}
 
-          <div className="form-container w-full md:w-2/3 my-2">
+          <div className="form-container w-full md:w-2/3 ">
             <input required type="email" name="email" className="form-input" />
             <label className="form-label">Email Address</label>
           </div>
           {/* Number Field  */}
 
-          <div className="form-container w-full md:w-2/3 my-2">
+          <div className="form-container w-full md:w-2/3 ">
             <input
               required
               type="text"
@@ -69,7 +69,7 @@ const SignUpForm = () => {
           </div>
 
           {/* Password Field  */}
-          <div className="form-container w-full md:w-2/3 my-2">
+          <div className="form-container w-full md:w-2/3 ">
             <input
               required
               type="password"
