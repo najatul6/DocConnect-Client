@@ -3,7 +3,7 @@ import { Form, Link } from "react-router-dom";
 
 const SignUpForm = () => {
   return (
-    <div className="form w-full flex flex-col justify-center gap-5 text-center py-10 md:py-20 px-5">
+    <div className="form w-full flex flex-col justify-center gap-5 text-center py-5 px-5">
       <div className="flex justify-center items-center">
         <h2 className="capitalize font-semibold text-lg sm:text-2xl md:text-3xl">
           Sign Up to Doc Connect
