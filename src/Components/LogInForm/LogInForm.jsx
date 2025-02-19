@@ -7,7 +7,7 @@ const LogInForm = () => {
       <div className="flex justify-center items-center">
         <h2 className="capitalize font-semibold text-lg sm:text-2xl md:text-3xl">
           Sign in to Doc Connect
-        </h2>
+        {/* </h2> */}
       </div>
 
       {/* Google Sign In Button  */}
