@@ -16,7 +16,7 @@ const ErrorPage = () => {
           className="w-full animate-pulse"
         />
       </div>
-      <NavLink to='/' className="btn_shared animate-bounce">
+      <NavLink to='/' className="btn_shared animate-bounce cursor-pointer">
         <p className="capitalize font-semibold flex justify-center items-center gap-4"> <FaPersonWalkingArrowLoopLeft /> Back to home</p>
       </NavLink>
     </div>
