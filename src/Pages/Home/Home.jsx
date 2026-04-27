@@ -1,10 +1,10 @@
+import serviceImg from "../../assets/banner/female Doctor.png";
 import ContactWithUs from "../../Components/ContactWithUs/ContactWithUs";
 import DoctorSection from "../../Components/DoctorSection/DoctorSection";
 import Hero from "../../Components/Header/Hero/Hero";
 import OpeningSection from "../../Components/OpeningSection/OpeningSection";
 import OurService from "../../Components/OurService/OurService";
 import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
-import serviceImg from "../../assets/banner/female Doctor.png";
 
 const Home = () => {
   return (
@@ -38,7 +38,7 @@ const Home = () => {
       <div className="p-5 my-5">
         <DoctorSection />
       </div>
-      
+
       {/* Contact With Us Section  */}
       <div className="p-5 my-5">
         <ContactWithUs />
