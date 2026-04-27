@@ -18,7 +18,7 @@ const Login = () => {
       </div>
 
       {/* Log In From Start Here */}
-      <div className="w-full flex-1  lg:py-0 ">
+      <div className="max-w-screen-md flex-1  lg:py-0 ">
         <div className="flex justify-center min-h-screen items-center py-0 lg:py-2 px-5 ">
           <LogInForm />
         </div>
