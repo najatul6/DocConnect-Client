@@ -7,12 +7,12 @@ const ErrorPage = () => {
     <div className="flex flex-col justify-center items-center max-w-full min-h-screen gap-10 px-5">
       <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl">Sorry,</h2>
       <p className="text-sm sm:text-base md:text-xl lg:text-2xl">
-        This page is not found.
+        Something went wrong.
       </p>
       <div className="flex flex-col justify-center items-center">
         <img
           src={errorImage}
-          alt="404 Error Image"
+          alt="opps! Somethings went wrong..."
           className="w-full animate-pulse"
         />
       </div>
