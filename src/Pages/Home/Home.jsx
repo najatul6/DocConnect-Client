@@ -38,12 +38,11 @@ const Home = () => {
       <div className="p-5 my-5">
         <DoctorSection />
       </div>
+      
       {/* Contact With Us Section  */}
       <div className="p-5 my-5">
         <ContactWithUs />
       </div>
-
-     
     </div>
   );
 };
