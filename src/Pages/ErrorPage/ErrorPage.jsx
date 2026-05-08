@@ -1,5 +1,5 @@
 import { FaPersonWalkingArrowLoopLeft } from "react-icons/fa6";
-import errorImage from "../../assets/Objects/error.png"
+import errorImage from "../../assets/Objects/error.png";
 import { NavLink } from "react-router-dom";
 
 const ErrorPage = () => {
@@ -12,12 +12,15 @@ const ErrorPage = () => {
       <div className="flex flex-col justify-center items-center">
         <img
           src={errorImage}
-          alt="opps! Somethings went wrong..."
+          alt="Oops! Something went wrong..."
           className="w-full animate-pulse"
         />
       </div>
-      <NavLink to='/' className="btn_shared animate-bounce cursor-pointer">
-        <p className="capitalize font-semibold flex justify-center items-center gap-4"> <FaPersonWalkingArrowLoopLeft /> Back to home</p>
+      <NavLink to="/" className="btn_shared animate-bounce cursor-pointer">
+        <p className="capitalize font-semibold flex justify-center items-center gap-4">
+          {" "}
+          <FaPersonWalkingArrowLoopLeft /> Back to home
+        </p>
       </NavLink>
     </div>
   );
