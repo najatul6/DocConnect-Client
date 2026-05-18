@@ -38,20 +38,6 @@ const Home = () => {
         <ContactWithUs />
       </div>
 
-
-      <div className="p-5 my-5">
-
-      </div>
-
-
-      <div className="p-5 my-5">
-
-      </div>
-
-
-      <div className="p-5 my-5">
-
-      </div>
     </div>
   );
 };
