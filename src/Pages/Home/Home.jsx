@@ -24,14 +24,17 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Opening Details Section  */}
       <div className="p-5 space-y-5">
+        {/* Opening Details Section  */}
         <OpeningSection />
+
         {/* Reviews Section  */}
         <ReviewsSection />
 
+        {/* Doctor Section  */}
         <DoctorSection />
 
+        {/* Contact With Us Section  */}
         <ContactWithUs />
       </div>
 
@@ -40,12 +43,12 @@ const Home = () => {
 
       </div>
 
-      {/* Doctor Section  */}
+
       <div className="p-5 my-5">
 
       </div>
 
-      {/* Contact With Us Section  */}
+
       <div className="p-5 my-5">
 
       </div>
