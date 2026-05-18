@@ -25,23 +25,29 @@ const Home = () => {
       </div>
 
       {/* Opening Details Section  */}
-      <div className="p-5 my-5">
+      <div className="p-5 space-y-5">
         <OpeningSection />
+        {/* Reviews Section  */}
+        <ReviewsSection />
+
+        <DoctorSection />
+
+        <ContactWithUs />
       </div>
 
-      {/* Reviews Section  */}
+
       <div className="p-5 my-5">
-        <ReviewsSection />
+
       </div>
 
       {/* Doctor Section  */}
       <div className="p-5 my-5">
-        <DoctorSection />
+
       </div>
 
       {/* Contact With Us Section  */}
       <div className="p-5 my-5">
-        <ContactWithUs />
+
       </div>
     </div>
   );
